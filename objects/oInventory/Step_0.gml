@@ -152,9 +152,3 @@ if(keyboard_check_pressed(ord("4")))
 	selected = 3;
 if(keyboard_check_pressed(ord("5")))
 	selected = 4;
-
-
-if(keyboard_check_pressed(ord("E")))
-{
-	Inventory_Add_Item(Items.WOOD);
-}
