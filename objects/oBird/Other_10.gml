@@ -1,0 +1,1 @@
+audio_play_sound(choose(sndBird1, sndBird2), 0, false);

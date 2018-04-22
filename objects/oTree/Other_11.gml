@@ -1,0 +1,1 @@
+audio_play_sound(choose(sndLeaves1, sndLeaves2), 1, false);
