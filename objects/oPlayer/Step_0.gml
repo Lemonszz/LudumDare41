@@ -10,6 +10,9 @@ var moveHor = inputLeft + inputRight;
 hsp = moveHor * moveSpeed;
 vsp = moveVer * moveSpeed;
 
+if(moveHor != 0)
+	facing = moveHor;
+
 if(place_meeting(x + hsp, y, oSolid) )
 {
 	while(!place_meeting(x + sign(hsp), y, oSolid))
@@ -74,7 +77,7 @@ if(Get_Held_Item() == Items.LIT_STICKS)
 	light_size = 40;
 }
 //////////
-if(age % 5 == 0 && irandom(20) == 0)
+if(age % 5 == 0 && irandom(15) == 0)
 {
 	global.player_hunger--;	
 }
@@ -85,6 +88,8 @@ if(flash_time <= 0 && place_meeting(x, y, oEnemy))
 	flash_time = 30;
 }
 
+global.hand = lerp(global.hand, 0, 0.1);
+
 if(global.player_hunger <= 0)
 	global.player_health = 0;
 	
@@ -93,3 +98,4 @@ if(global.player_health <= 0)
 	if(!instance_exists(oGameOver))
 		instance_create_depth(0, 0, 0, oGameOver);
 }
+image_xscale = facing;

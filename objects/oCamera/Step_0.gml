@@ -9,6 +9,7 @@ instance_activate_object(oPlayer);
 instance_activate_object(oLight);
 instance_activate_object(oEnemy);
 instance_activate_object(oGameOver);
+instance_activate_object(oLogo);
 
 var cam = view_camera[0];
 var left = camera_get_view_x(cam) - 0;

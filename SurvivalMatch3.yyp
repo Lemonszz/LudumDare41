@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "22ee032f-5e4f-430a-b8f6-6b428ba0e421",
+            "Value": {
+                "id": "7914fab1-a214-4fa9-adb7-8148552e2c60",
+                "resourcePath": "sprites\\sPlayerHand\\sPlayerHand.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24ed1dad-28cf-4173-969c-f592499cbd9f",
             "Value": {
                 "id": "d93cd558-4c69-4a2f-9b9c-59e35106ad55",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "7c670cfe-afc5-4569-a431-21bfe33dca98",
+            "Value": {
+                "id": "fd7f6341-8961-4b33-8339-cf9ccff5eb7a",
+                "resourcePath": "sprites\\sName\\sName.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d373855-30bc-452b-a30a-81a0e9a3c673",
             "Value": {
                 "id": "db47a6ef-6c85-49fb-b9eb-fdf9f95fe06f",
@@ -516,6 +532,14 @@
                 "id": "6f5222ce-fe41-4c06-a89a-770cbfe980c9",
                 "resourcePath": "sprites\\sRock\\sRock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d677464-1d21-4b19-bd23-bfbfd454a913",
+            "Value": {
+                "id": "f59aff6a-f23f-4315-9b07-af96e29b470d",
+                "resourcePath": "objects\\oLogo\\oLogo.yy",
+                "resourceType": "GMObject"
             }
         },
         {

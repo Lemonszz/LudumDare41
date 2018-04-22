@@ -13,3 +13,7 @@ light_size = 0;
 item_pickup_delay = 0;
 
 age = 0;
+
+facing = 1;
+
+global.hand = 0;

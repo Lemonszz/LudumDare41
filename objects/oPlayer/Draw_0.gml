@@ -8,3 +8,4 @@ if(global.player_health <= 0)
 
 event_inherited();
 
+draw_sprite(sPlayerHand, 0, x + (facing * global.hand), y);

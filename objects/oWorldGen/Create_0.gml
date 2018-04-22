@@ -1,5 +1,5 @@
 randomise();
-
+window_set_caption("Match 'n Slash");
 audio_play_sound(sndMusic1, 0, true);
 
 global.grass_surf = surface_create(room_width, room_height);

@@ -44,6 +44,7 @@ if(mouse_check_button_pressed(mb_left))
 	{
 		if(point_distance(oPlayer.x, oPlayer.y, inst.x, inst.y) < 60)
 		{
+			global.hand = 10;
 			with(inst)
 			{
 				event_user(0);	
